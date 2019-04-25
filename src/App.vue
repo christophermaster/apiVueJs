@@ -63,14 +63,13 @@
 
 
 <script>
-
-export default {
-  name: 'App',
-  data: () => ({
-    items: [
-      { title: 'Salir', icon: 'exit_to_app' },
-      { title: 'Configurar perfil', icon: 'settings' },
-    ]
-  })
-}
+  export default {
+    name: 'App',
+    data: () => ({
+      items: [
+        { title: 'Salir', icon: 'exit_to_app' },
+        { title: 'Configurar perfil', icon: 'settings' },
+      ]
+    })
+  }
 </script>
